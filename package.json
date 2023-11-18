@@ -1,20 +1,20 @@
 {
-  "name": "vite-component-library-template",
+  "name": "@getargosy/zodiac-js",
   "private": false,
-  "version": "2.0.4",
+  "version": "0.0.1",
   "packageManager": "pnpm@8.4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IgnacioNMiranda/vite-component-library-template"
+    "url": "https://github.com/getargosy/zodiac-js"
   },
-  "main": "./dist/vite-component-library-template.umd.js",
-  "module": "./dist/vite-component-library-template.es.js",
+  "main": "./dist/zodiac-js.umd.js",
+  "module": "./dist/zodiac-js.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vite-component-library-template.es.js",
-      "require": "./dist/vite-component-library-template.umd.js"
+      "import": "./dist/zodiac-js.es.js",
+      "require": "./dist/zodiac-js.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
